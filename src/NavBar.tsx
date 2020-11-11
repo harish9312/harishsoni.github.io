@@ -29,6 +29,7 @@ const navBarOptions = [
 
 export const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = React.useState(false);
+  const [selectedNav, setSelectedNav] = React.useState("");
 
   const scrollIntoView = (id: string) => {
     setTimeout(
@@ -38,6 +39,7 @@ export const NavBar = () => {
     // eslint-disable-next-line no-restricted-globals
     history.pushState(null, "Home", `?page=${id}`);
     setIsNavOpen(false);
+    setSelectedNav(id);
   };
 
   return (
@@ -60,7 +62,11 @@ export const NavBar = () => {
             <li
               key={option.id}
               onClick={() => scrollIntoView(option.id)}
-              className="menu-item"
+              className={
+                option.id === selectedNav
+                  ? "menu-item active-item"
+                  : "menu-item"
+              }
             >
               {option.name}
             </li>
