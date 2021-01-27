@@ -23,6 +23,10 @@ function App() {
         <Education />
         <Resume />
       </div>
+      <div className="footer">
+        Designed &amp; Developed By <span role="img">👨🏻‍💻</span> Harish Soni
+        &copy; 2021
+      </div>
     </div>
   );
 }

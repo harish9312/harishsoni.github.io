@@ -5,7 +5,7 @@ import { skills } from "./skills";
 export const Skills = () => {
   return (
     <div id="Skills" className="about-me page">
-      <h1 className="page-heading">Skills</h1>
+      <h1 className="page-heading">Tech Stack</h1>
       <div className="skills-pane">
         {skills.map((skill, i) => {
           return (
