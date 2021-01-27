@@ -9,6 +9,8 @@ import { Skills } from "./components/Skills";
 import { Education } from "./components/Education";
 import { Resume } from "./components/Resume";
 
+declare const Particles: any;
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +18,6 @@ function App() {
       <div className="pages">
         <Home />
         <AboutMe />
-        <Experience />
         <Projects />
         <Skills />
         <Education />

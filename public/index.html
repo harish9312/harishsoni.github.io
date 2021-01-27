@@ -10,8 +10,9 @@
       content="Hi, I am Harish, a Full Stack Dev. I am a keen to learn and passionate about JavaScript."
     />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="particles.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
       rel="stylesheet"
     />
 
@@ -34,6 +35,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="particles-js"></div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -46,4 +48,9 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    particlesJS.load("particles-js", "config.json", function () {
+      console.log("callback - particles.js config loaded");
+    });
+  </script>
 </html>

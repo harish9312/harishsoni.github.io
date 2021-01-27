@@ -6,19 +6,15 @@ const navBarOptions = [
     id: "AboutMe",
   },
   {
-    name: "Experience",
-    id: "Experience",
-  },
-  {
     name: "Projects",
     id: "Projects",
   },
   {
-    name: "Skills",
+    name: "Tech Stack",
     id: "Skills",
   },
   {
-    name: "Eduction",
+    name: "Education",
     id: "Education",
   },
   {

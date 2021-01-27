@@ -1,3 +1,50 @@
 .about-me {
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.github {
+    color: white;
+
+    &:hover {
+        background: transparent;
+    }
+}
+
+
+img.github-logo {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.about {
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    padding: 40px 0px;
+    font-size: 1.3rem;
+
+    h1,
+    h2 {
+        padding: 20px;
+    }
+
+    a {
+        color: white;
+    }
+
+    p {
+        line-height: 1.5;
+        font-size: 19px;
+        padding: 10px;
+    }
+
+    li {
+        padding: 10px;
+        list-style: circle;
+        text-align: left;
+    }
+
+    h2#my-coding-motivations {
+        margin: 30px 0px;
+    }
 }

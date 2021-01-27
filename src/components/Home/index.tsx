@@ -1,5 +1,5 @@
 import * as React from "react";
-import myImage from "../../myImg2.png";
+import myImage from "../../myIm.png";
 import "./Home.scss";
 
 export const Home = () => {

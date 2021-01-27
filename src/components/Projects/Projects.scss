@@ -1,3 +1,58 @@
-.about-me {
-    height: 100vh;
+.projects-pane {
+    min-height: 100vh;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    .link {
+        color: white;
+
+        &:hover {
+            background: transparent;
+        }
+    }
+
+    .card {
+        background: #00000061;
+        margin: 20px;
+        padding: 30px 15px;
+        border-radius: 10px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        color: white;
+
+
+        .project-logo {
+            width: 100px;
+        }
+
+        .project-title {
+            font-size: 1.7rem;
+            border-bottom: 1px solid;
+            // color: #545454;
+            margin-bottom: 20px;
+        }
+
+        .project-desc {
+            font-size: 17px;
+            line-height: 1.4;
+            font-weight: bolder;
+            text-align: left;
+            // color: #3e3e3e;
+        }
+
+        .bg-white {
+            width: 100px;
+            background: white;
+            border-radius: 10px;
+            padding: 0 20px;
+        }
+
+        &:hover {
+            box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            cursor: pointer;
+        }
+    }
 }

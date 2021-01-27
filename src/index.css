@@ -7,6 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#particles-js {
+  background-color: black;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

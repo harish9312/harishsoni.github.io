@@ -1,12 +1,19 @@
-.myImage {
-    max-width: calc(100% - 300px);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    margin-left: 275px;
-    margin-top: 25px;
+@media screen and (min-width: 1400px) {
+    .myImage {
+        max-width: calc(100% - 400px);
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        margin-left: 275px;
+        margin-top: 140px;
+        width: 100%;
+    }
 }
 
 .home {
     position: relative;
     z-index: -1;
-    top: 0
+    top: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
