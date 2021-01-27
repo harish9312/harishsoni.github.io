@@ -11,10 +11,16 @@ marked.setOptions({
   smartypants: false,
 });
 
-const source = `# Hi Visitor! 
+const date1: any = new Date("7/24/2017");
+const date2: any = new Date();
+const diffTime = Math.abs(date2 - date1);
+const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+const source = `# Hi There..!! 
 ---
 I'm **Harish Soni**, from *Korba, CG*. 🇮🇳 A **Senior Software
-Developer 👨🏻‍💻 at [Coditas LLP](https://coditas.com)**. I have 3.6+ years of
+Engineer 👨🏻‍💻 at [Coditas LLP](https://coditas.com)**. I have ${(
+  diffDays / 365
+).toFixed(1)} years of
 experience of Developing Web and Node Applications.
 ## My Coding Motivations 🙏🏼
 ---

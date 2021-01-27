@@ -17,8 +17,8 @@ export const projects = [
   {
     id: 3,
     title: "Coditas Helpdesk",
-    description: `The helpdesk widget of the Codita is built using the ReactJS, this widget can be used to send the enquiry to out HR team.
-     it is using AntD for it's form and Google ReCaptcha.`,
+    description: `The helpdesk widget of the Coditas is built using the ReactJS, this widget can be used to send the enquiry to our HR team.
+     It is using AntD for it's form and Google ReCaptcha.`,
     img: require("./HelpLogo.png"),
     preview: "https://coditas.com",
   },
@@ -46,6 +46,8 @@ export const projects = [
     description: `Bandhan is a mobile application where the company using it can conduct the camps for the medical assistant of the patients. 
     It is built using the React Native platform, Redux for state management.`,
     img: require("./BLogo.svg"),
+    preview:
+      "https://play.google.com/store/apps/details?id=com.bandhan&hl=en_IN",
     className: "bg-white",
   },
 ];

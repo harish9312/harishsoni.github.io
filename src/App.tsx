@@ -24,8 +24,8 @@ function App() {
         <Resume />
       </div>
       <div className="footer">
-        Designed &amp; Developed By <span role="img">👨🏻‍💻</span> Harish Soni
-        &copy; 2021
+        Designed &amp; Developed By <br /> <span role="img">👨🏻‍💻</span> Harish
+        Soni &copy; 2021
       </div>
     </div>
   );

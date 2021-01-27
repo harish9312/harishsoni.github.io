@@ -9,7 +9,7 @@ export const Projects = () => {
       <div className="projects">
         {projects.map((proj) => {
           return (
-            <div className="card">
+            <div key={proj.id} className="card">
               <a
                 target="_blank"
                 rel="noopener noreferrer"

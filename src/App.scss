@@ -52,6 +52,8 @@ body {
 
 .main-nav {
   background: #00000085;
+  z-index: 100;
+
   height: 100%;
   width: 250px;
   position: fixed;
@@ -181,7 +183,35 @@ a:hover {
   height: 100%;
 }
 
+.social {
+  display: flex;
+  max-width: 300px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+
+  a {
+    margin: 10px;
+
+    &:hover {
+      cursor: pointer;
+      background: transparent;
+    }
+  }
+}
+
 @mixin mediaMixin {
+
+
+  .footer {
+    margin: 0;
+  }
+
+  .social {
+    bottom: 50px;
+    right: unset;
+    top: unset;
+  }
 
   .nav-content {
     background-color: black;
@@ -196,6 +226,7 @@ a:hover {
   .main-nav {
     height: 80px;
     width: 100%;
+    z-index: 100;
   }
 
   .menu-list {

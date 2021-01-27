@@ -26,6 +26,12 @@ const navBarOptions = [
 export const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = React.useState(false);
   const [selectedNav, setSelectedNav] = React.useState("");
+  // eslint-disable-next-line no-restricted-globals
+  const id = location.search.split("=")[1];
+
+  React.useEffect(() => {
+    scrollIntoView(id);
+  }, [id]);
 
   const scrollIntoView = (id: string) => {
     setTimeout(

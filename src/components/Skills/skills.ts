@@ -16,6 +16,10 @@ export const skills = [
     logo: require("./logos/NxLogo.png"),
   },
   {
+    name: "SASS",
+    logo: require("./logos/SASSLogo.png"),
+  },
+  {
     name: "Node JS",
     logo: require("./logos/NodeLogo.png"),
   },
