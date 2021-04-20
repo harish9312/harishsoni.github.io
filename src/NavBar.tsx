@@ -30,7 +30,7 @@ export const NavBar = () => {
   const id = location.search.split("=")[1];
 
   React.useEffect(() => {
-    scrollIntoView(id);
+    scrollIntoView(id || "Home");
   }, [id]);
 
   const scrollIntoView = (id: string) => {
