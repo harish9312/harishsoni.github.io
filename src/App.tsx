@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.scss";
 import { NavBar } from "./NavBar";
-import { Home } from "./components/Home";
+import { 
+  Home } from "./components/Home";
 import { AboutMe } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
