@@ -9,7 +9,7 @@ export const Resume = () => {
         style={{ minHeight: "90vh" }}
         width="100%"
         height="600"
-        src="https://www.docdroid.net/HiIHHiT/harish-soni-pdf"
+        src="https://drive.google.com/file/d/13j32LFXmwfkUbX81wpxVfYfHcKL3ybGV/preview"
         allowFullScreen
         title="My Resume"
       ></iframe>
